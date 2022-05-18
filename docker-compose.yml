@@ -4,14 +4,14 @@ services:
     image: zhangyahan/electron-release-server
     environment:
       APP_USERNAME: admin
-      APP_PASSWORD: admin
+      APP_PASSWORD: admin@1234.
       DB_HOST: db
       DB_PORT: 5432
       DB_NAME: releaseserver
       DB_USERNAME: releaseserver
       DB_PASSWORD: releaseserver
       TOKEN_SECRET: change_me_in_production
-      APP_URL: 'localhost:5000'
+      APP_URL: '192.168.30.26:5000'
       ASSETS_PATH: '/usr/src/electron-release-server/releases'
     depends_on:
       - db
