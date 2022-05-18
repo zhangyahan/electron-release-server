@@ -1,3 +1,6 @@
 {
-  "directory": "assets/bower_components"
+  "directory": "assets/bower_components",
+  "proxy": "http://192.168.30.26:10809",
+  "https-proxy":"http://192.168.30.26:10809",
+  "strict-ssl": false
 }
